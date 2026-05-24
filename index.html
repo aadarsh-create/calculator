@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="patch p1"></div>
+    <div class="patch p2"></div>
+    <div class="main">
+      <span class="screen" id="screen"> </span>
+      <span class="btn">
+        <span class="cl1">
+          <button onclick="clr()">C</button>
+          <button onclick="addexp('/')">/</button>
+          <button onclick="addexp('*')">*</button>
+          <button onclick="bckspc()">⩤</button>
+        </span>
+        <span class="cl2">
+          <button onclick="addexp('7')">7</button>
+          <button onclick="addexp('8')">8</button>
+          <button onclick="addexp('9')">9</button>
+          <button onclick="addexp('-')">-</button>
+        </span>
+        <span class="cl3">
+          <button onclick="addexp('4')">4</button>
+          <button onclick="addexp('5')">5</button>
+          <button onclick="addexp('6')">6</button>
+          <button onclick="addexp('+')">+</button>
+        </span>
+        <span class="cl4">
+          <button onclick="addexp('1')">1</button>
+          <button onclick="addexp('2')">2</button>
+          <button onclick="addexp('3')">3</button>
+          <button onclick="addexp('.')">.</button>
+        </span>
+        <span class="cl5">
+          <button class="big" onclick="addexp('0')">0</button>
+          <button class="big" onclick="result()">=</button>
+        </span>
+      </span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
