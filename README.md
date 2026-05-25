@@ -1,6 +1,6 @@
 # Calculator App
 
-🔗 Live Demo: https://aadarsh-create.github.io/calculator/
+🔗 Live Demo: https://aadarsh-create.github.io/web-calculator/
 
 A simple calculator built using HTML, CSS, and JavaScript.
 
