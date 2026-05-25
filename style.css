@@ -27,6 +27,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+body.light {
+  --gbg1: #dbeafe;
+  --gbg2: #fef3c7;
+
+  --blob1: #a78bfa;
+  --blob2: #38bdf8;
+
+  --text: #1f2937;
+
+  --bg1: rgba(255, 255, 255, 0.65);
+  --bg2: rgba(0, 0, 0, 0.08);
+}
 
 .patch {
   position: absolute;
@@ -125,6 +137,13 @@ button {
 button:hover {
   background-color: var(--bg2);
   transform: scale(1.05);
+}
+
+.toggle {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  width: auto;
 }
 
 .main,

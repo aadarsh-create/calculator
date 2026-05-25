@@ -1,4 +1,9 @@
 const display = document.getElementById("screen");
+
+function togglemode() {
+  document.body.classList.toggle("light");
+}
+
 function addexp(exp) {
   if (display.innerText === "Error") {
     display.innerText = "";
