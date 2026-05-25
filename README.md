@@ -11,6 +11,7 @@ A simple calculator built using HTML, CSS, and JavaScript.
   - Division
 - Clear screen button
 - Backspace button
+- Toggle Theme
 - Responsive glassmorphism UI
 - Animated gradient background
 
@@ -21,4 +22,4 @@ A simple calculator built using HTML, CSS, and JavaScript.
 
 ## Author
 
-aadarsh-create
+[aadarsh-create](https://github.com/aadarsh-create)
