@@ -4,6 +4,19 @@
 
 A simple calculator built using HTML, CSS, and JavaScript.
 
+## 📁 Project Structure
+
+```
+web-calculator/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── screenshots/
+    ├── dark.png
+    └── light.png
+```
+
 ## Features
 
 - Basic arithmetic operations
@@ -21,6 +34,14 @@ A simple calculator built using HTML, CSS, and JavaScript.
 
 1. Download or clone the project
 2. Open `index.html` in your browser
+
+## Screenshots
+
+### Dark Theme
+<img width="600px" alt="image" src="https://github.com/aadarsh-create/web-calculator/blob/main/screenshots/dark.png?raw=true" />
+
+### Light Theme
+<img width="600px" alt="image" src="https://github.com/aadarsh-create/web-calculator/blob/main/screenshots/light.png?raw=true" />
 
 ## Author
 
